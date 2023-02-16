@@ -1,0 +1,52 @@
+section#editor {
+    min-height: 90vh;
+    padding: 0rem 15rem;
+}
+section#editor > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2rem 0.8rem;
+    border-bottom: thin solid tomato;
+}
+section#editor > div  span {
+    font-size: 2.5rem;
+}
+section#editor > div  a {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+section#editor > div > div > a {
+    margin: 0rem 1rem;
+}
+section#editor > form {
+    padding: 2rem 2rem;
+}
+section#editor > form > * {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+section#editor > form > input {
+    font-size: 4rem;
+    padding: 1.5rem;
+    border: thin solid tomato;
+    font-weight: bold;
+}
+section#editor > form > textarea {
+    font-size: 2rem;
+    padding: 1rem;
+    border: thin solid tomato;
+    font-weight: bold;
+}
+section#editor > form > input[type="submit"] {
+    font-size: 2rem;
+    color: white;
+    background-color: tomato;
+    width: 20%;
+    border-radius: 2rem;
+    font-weight: normal;
+    text-transform: capitalize;
+}

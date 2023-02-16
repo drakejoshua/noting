@@ -1,0 +1,86 @@
+/* 
+    this conatins all css code that is universal for our site
+    like the styling for the headers and footers and also base styles
+*/
+
+
+/* base styles */
+* {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+body {
+    margin: 0px;
+}
+
+
+
+/* styling the nav */
+nav {
+    padding: 2rem 15rem  ;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #442b3e;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+nav > * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav > a#nav-header-text {
+    font-size: 3rem;
+    color: yellow;
+    font-family: cursive;
+    font-weight: bold;
+}
+nav > span.nav-menu-btn {
+    display: none;
+}
+nav > div.nav-link-ctn {
+    display: inline-block;
+}
+nav > div.nav-link-ctn > a.nav-link {
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    color: white;
+}
+nav > div.nav-link-ctn > a.nav-link:nth-child(3) {
+    padding: 1.5rem;
+    border-radius: 1.6rem;
+    background-color: tomato;
+}
+
+
+/* styling the footer */
+footer {
+    padding: 2rem 15rem  ;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #442b3e;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+footer > * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer > a#footer-header-text {
+    font-size: 3rem;
+    color: yellow;
+    font-family: cursive;
+    font-weight: bold;
+}
+footer > div.footer-link-ctn {
+    display: inline-block;
+}
+footer > div.footer-link-ctn > a.footer-link {
+    font-size: 1.8rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-left: 2rem;
+    color: white;
+}

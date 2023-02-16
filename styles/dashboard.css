@@ -1,0 +1,80 @@
+section#dashboard {
+    padding: 2rem 15rem;
+    min-height: 90vh;
+}
+section#dashboard > h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+section#dashboard > div#filter-bar {
+    margin: 0rem 0rem 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+section#dashboard > div#filter-bar > input {
+    width: 85%;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    outline: none;
+    border: thin solid tomato;
+    border-radius: 1.5rem;
+}
+section#dashboard > div#filter-bar > span {
+    font-size: 3rem;
+    color: tomato;
+}
+section#dashboard > div#filter-bar > a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    padding: 1rem;
+    color: white;
+    background-color: tomato;
+}
+section#dashboard > div#filter-bar > a > span {
+    font-size: 1.7rem;
+}
+section#dashboard > div#notes-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+div#notes-list > div.note {
+    width: 30%;
+    padding: 3.5rem;
+    background-color: tomato;
+    margin: 1rem 0rem;
+    border-radius: 2rem;
+}
+div.note > h2 > a {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+div.note > h1 {
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+div.note > p {
+    font-size: 1.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem 0rem 3rem;
+}
+div.note > div > a {
+    margin: 0rem 0.5rem;
+    text-decoration: none;
+}
+div.note > div > a > span {
+    font-size: 2rem;
+    color: black;
+}
