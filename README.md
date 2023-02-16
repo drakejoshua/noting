@@ -1,2 +1,2 @@
 # noting
- The github code repository for the noting app
+ The github code repository for the noting software application
